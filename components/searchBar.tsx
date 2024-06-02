@@ -50,11 +50,11 @@ const SearchBar: React.FC<SearchBarProps> = ({ onSearch }) => {
   }
 
   return (
-    <div className="flex flex-col items-center justify-center w-6/12 h-24 py-20 text-center  mx-auto">
+    <div className="flex flex-col items-center justify-center w-full md:w-6/12 h-24 py-20 text-center  mx-auto">
       <Form {...form}>
         <form
           onSubmit={form.handleSubmit(onSubmit)}
-          className="w-2/3 space-y-6"
+          className=" md:w-2/3 space-y-6"
         >
           <FormField
             control={form.control}

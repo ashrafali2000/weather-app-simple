@@ -22,7 +22,7 @@ const FavoriteCities: React.FC<FavoriteCitiesProps> = ({
   onRemoveCity,
 }) => {
   return (
-    <Card className="flex flex-col items-center justify-center h-64 text-center shadow-md mx-auto  font-bold">
+    <Card className="bg-gradient-to-r from-orange-400 to-teal-400 w-full lg:w-8/12 flex flex-col items-center justify-center h-64 text-center shadow-md mx-auto  font-bold">
       <CardHeader>
         <CardTitle>Favorite Cities</CardTitle>
         <CardDescription>Click on a city to see the weather</CardDescription>

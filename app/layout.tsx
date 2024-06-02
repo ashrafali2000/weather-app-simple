@@ -20,7 +20,7 @@ export default function RootLayout({
         <div
           className=""
           style={{
-            backgroundImage: "url(./boywithrain.gif)",
+            backgroundImage: "url(./weather.jpg)",
             backgroundRepeat: "no-repeat",
             backgroundSize: "cover",
             height: "100vh",

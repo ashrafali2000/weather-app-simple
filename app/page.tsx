@@ -62,7 +62,7 @@ const Home: React.FC = () => {
           <div className="flex flex-col items-center justify-center mt-4">
             <button
               onClick={() => addFavoriteCity(weather.name)}
-              className="mt-2 px-4 py-2 bg-slate-950 hover:bg-slate-900 text-white rounded flex flex-col items-center"
+              className="bg-gradient-to-r from-blue-400 to-green-500 hover:from-pink-500 hover:to-yellow-500 text-lg border mt-2 px-4 py-2 bg-slate-950 hover:bg-slate-900 text-white rounded flex flex-col items-center"
             >
               Add to Favorites
             </button>

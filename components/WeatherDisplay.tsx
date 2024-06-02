@@ -39,7 +39,7 @@ const WeatherDisplay: React.FC<WeatherDisplayProps> = ({
   const cityName = weather.name;
 
   return (
-    <Card className="flex flex-col w-8/12 items-center justify-center h-64 bg-gradient-to-r from-teal-400 to-orange-400 text-center  mx-auto font-bold">
+    <Card className="flex flex-col w-full lg:w-8/12 items-center justify-center h-64 bg-gradient-to-r from-teal-400 to-orange-400 text-center  mx-auto font-bold">
       <CardHeader>
         <CardTitle>{cityName && `Weather in ${cityName}`}</CardTitle>
         <CardDescription>
